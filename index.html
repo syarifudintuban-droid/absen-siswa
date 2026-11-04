@@ -1,13 +1,3 @@
-Berikut adalah pembaruan kode aplikasi absensi barcode. Pada menu **Pengaturan**, kini telah ditambahkan dua konfigurasi waktu penting:
-
-1. **Jam Mulai Bisa Absen Masuk**: Menentukan pukul berapa gerbang absensi dibuka sehingga siswa tidak bisa melakukan absensi masuk sebelum waktu tersebut.
-2. **Jam Terhitung Terlambat (Batas Masuk Normal)**: Menentukan batas akhir tepat waktu. Siswa yang melakukan absen di atas jam ini akan otomatis tercatat sebagai **Terlambat**.
-
----
-
-Salin seluruh kode HTML di bawah ini lalu simpan/ganti file `.html` Anda:
-
-```html
 <!DOCTYPE html>
 <html lang="id">
 <head>
